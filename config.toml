@@ -1,0 +1,51 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Mauricio R. Cruz"
+theme = "maurcz-blog"
+googleAnalytics = "UA-123-45"
+summaryLength = 2
+paginate = 10
+
+# https://www.pakstech.com/blog/create-hugo-theme/  
+# bulma
+# fontawesome
+# jquery
+
+[params]
+    description = "My site description"
+    author = "Mauricio R. Cruz"
+    authorImage = "/images/cheeto.png"
+    authorDescription = "Coding, Gaming and Headbanging"
+    footerMsg = "<i class='fa fa-coffee' aria-hidden='true'></i> Made with <a target='_blank' href='https://gohugo.io/'>hugo</a>. Custom theme created based on <a target='_blank' href='https://www.pakstech.com/blog/create-hugo-theme/'>this</a> blog post."
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/"
+
+[[menu.social]]
+  name = "GitHub"
+  url = "https://github.com/maurcz"
+  pre = "<i class='fab fa-github'></i>"
+
+[[menu.social]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/mauriciorcruz/"
+    pre = "<i class='fab fa-linkedin'></i>"
+
+[related]
+    threshold = 0 
+    includeNewer = true
+    toLower = false
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+  
