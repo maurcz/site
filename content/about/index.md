@@ -9,7 +9,7 @@ My career started in Brazil, working with [SAP](https://www.casadocodigo.com.br/
 
 Outside of programming, I'm a [metalhead](https://www.youtube.com/watch?v=K3jXXsL0q5A), [kendoka](https://youtu.be/Amju_GepRo8?t=659) and [gamer](https://www.youtube.com/watch?v=p2JhxUB4hoQ). It's also becoming pretty clear to me that the Japanese language is way harder to learn than making sense of whatever is hot in frontend these days.
 
-As you've probably noticed if you read any of my posts, I'm not a native english speaker. Therefore, if you see absolutely anything that can be improved in my texts, please open an issue in this site's github repo. This is also true for any tech-related insanity I might have said (you know, we've all been there).
+As you've probably noticed if you read any of my posts, I'm not a native english speaker. Therefore, if you see absolutely anything that can be improved in my texts, please open an issue in this [site's github repo](https://github.com/maurcz/site). This is also true for any tech-related insanity I might have said (you know, we've all been there).
 
 Thank you for reading! 
 

@@ -17,4 +17,4 @@ If you're into metal, go and give [Khemmis - Hunter](https://open.spotify.com/al
 
 ## License
 
-Aside from `\content\posts\` and `\content\about\` and `\public\`, everything else is MIT Licensed. 
+Aside from `\content\posts\` and `\content\about\`, everything else is MIT Licensed. 
