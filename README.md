@@ -9,13 +9,12 @@ This is a website created with Hugo. Here's the [post](https://maurcz.github.io/
 - [Font Awesome](https://fontawesome.com/icons?d=gallery&m=free) and it's ~2k free icons
 - [Merriweather](https://fonts.google.com/specimen/Merriweather), a font by Google
 
-[This guide](https://www.pakstech.com/blog/create-hugo-theme/) by Janne Kemppainen influenced the architecture of my custom theme.
+[his guide](https://www.pakstech.com/blog/create-hugo-theme/) by Janne Kemppainen influenced the architecture of my custom theme.
+
+## Band Recommendation
+
+If you're into metal, go and give [Khemmis - Hunter](https://open.spotify.com/album/3u16EqmIewkFrJLvGQFVmL?si=z08XXF5CSgmR4ZTBEsQAdw) a try. 
 
 ## License
 
 Aside from `\content\posts\` and `\content\about\`, everything else is MIT Licensed. 
-
-## Band Recommendation
-
-If you're into metal, give `Khemmis - Hunter` a try. 
-
