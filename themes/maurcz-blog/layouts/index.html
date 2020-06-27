@@ -5,6 +5,7 @@
             <div class="column max-1000px">
                 <div class="content">
                     {{ .Content }}
+                    {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
                     {{ range .Paginator.Pages }}
                     <div class="container">
                         <div class="title is-5">

@@ -13,6 +13,11 @@ a {
     color: #d91717e8;
 }
 
+hr {
+	background-color: #ccc;
+	height: 1px;
+}
+
 .highlight-color {
     color: #d91717e8
 }
@@ -21,10 +26,15 @@ a {
     background-color: #fdfaf5;
 }
 
+.footnotes {
+    font-size: 12px
+}
+
 .footer {
     padding: 1rem 1.5rem 1rem;
     font-size: 12px;
 }
+
 .logo h1 {
     font-size: 1.5em;
 

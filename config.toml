@@ -16,7 +16,7 @@ paginate = 10
     author = "Mauricio R. Cruz"
     authorImage = "/images/cheeto.png"
     authorDescription = "Coding, Gaming and Headbanging"
-    footerMsg = "<i class='fa fa-coffee' aria-hidden='true'></i> Made with <a target='_blank' href='https://gohugo.io/'>hugo</a>. Custom theme created based on <a target='_blank' href='https://www.pakstech.com/blog/create-hugo-theme/'>this</a> blog post."
+    footerMsg = "<i class='fa fa-coffee' aria-hidden='true'></i> Made with <a target='_blank' href='https://gohugo.io/'>hugo</a>. Custom theme based on <a target='_blank' href='https://www.pakstech.com/blog/create-hugo-theme/'>this</a> blog post."
 
 [[menu.main]]
   name = "About"
