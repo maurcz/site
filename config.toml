@@ -6,11 +6,6 @@ googleAnalytics = "UA-123-45"
 summaryLength = 2
 paginate = 10
 
-# https://www.pakstech.com/blog/create-hugo-theme/  
-# bulma
-# fontawesome
-# jquery
-
 [params]
     description = "My site description"
     author = "Mauricio R. Cruz"
