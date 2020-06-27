@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://maurcz.github.io/"
 languageCode = "en-us"
 title = "Mauricio R. Cruz"
 theme = "maurcz-blog"
@@ -6,11 +6,8 @@ googleAnalytics = "UA-123-45"
 summaryLength = 2
 paginate = 10
 
-[params]
-    description = "My site description"
-    author = "Mauricio R. Cruz"
-    authorImage = "/images/cheeto.png"
-    authorDescription = "Coding, Gaming and Headbanging"
+[params]    
+    author = "Mauricio R. Cruz"    
     footerMsg = "<i class='fa fa-coffee' aria-hidden='true'></i> Made with <a target='_blank' href='https://gohugo.io/'>hugo</a>. Custom theme based on <a target='_blank' href='https://www.pakstech.com/blog/create-hugo-theme/'>this</a> blog post."
 
 [[menu.main]]
@@ -30,6 +27,11 @@ paginate = 10
     name = "LinkedIn"
     url = "https://www.linkedin.com/in/mauriciorcruz/"
     pre = "<i class='fab fa-linkedin'></i>"
+
+[[menu.social]]
+    name = "Email"
+    url = "mailto:mauriciorcruz@gmail.com"
+    pre = "<i class='fa fa-envelope'></i>"
 
 [related]
     threshold = 0 
