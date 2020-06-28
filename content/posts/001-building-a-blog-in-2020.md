@@ -86,7 +86,7 @@ Here's my override to `theme/folder/index.html`:
 <div class="container">
     <div class="section">
         <div class="columns is-centered">
-            <div class="column max-1000px">
+            <div class="column max-width">
                 <div class="content">
                     {{ .Content }}
                     {{ $paginator := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
@@ -109,7 +109,7 @@ Here's my override to `theme/folder/index.html`:
             </div>
         </div>
         <div class="columns is-centered">
-            <div class="column max-1000px">
+            <div class="column max-width">
                 {{ partial "widgets/pagination.html" . }}
             </div>
         </div>
