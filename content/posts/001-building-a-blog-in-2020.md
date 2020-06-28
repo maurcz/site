@@ -28,7 +28,7 @@ I'm still amazed by how easy it was to setup everything for this site with Hugo.
 
 There are [plenty of themes](https://themes.goHugo.io/) available. A piece of advice if you're testing out lots of free themes: some of them require _very_ specific things in your site's `config.toml` file. Make sure to double check if you're following the theme dev's guidelines for configuration, before moving on to a theme "that works".
 
-Most themes I tried still felt like too much for what I wanted, so I decided to go and create my own. [This guide](https://www.pakstech.com/blog/create-Hugo-theme/) by Janne Kemppainen was extremely helpful. Basically, I used his examples as a bad, but took _all_ the "clutter" out of the way. 
+Most themes I tried still felt like too much for what I wanted, so I decided to go and create my own. [This guide](https://www.pakstech.com/blog/create-Hugo-theme/) by Janne Kemppainen was extremely helpful. Basically, I used his examples as base taking _all_ the "clutter" out of the way. 
 
 Only two folders live inside `content`:
 
@@ -120,7 +120,7 @@ Here's my override to `theme/folder/index.html`:
 
 Just a simple list of _posts_ (notice the rules for `$paginator`), with title, date and summary. Bulma's [column](https://bulma.io/documentation/columns/basics/) ensure a modular and responsive layout, giving me that feeling that I'm back into using `<tr><td>`s for everything in Dreamweaver (I really wished I had a way to find the first ever Quake website I made).
 
-I've added [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) to the theme, which is where those social icons up there are coming from, and the free font [Merriweather](https://fonts.google.com/specimen/Merriweather) by Google. Aside from some minor CSS tweaks and overrides, that's pretty much it. 
+I've added [fontawesome](https://fontawesome.com/icons?d=gallery&m=free) to the theme, which is where those social icons up there are coming from, and the free font [Merriweather](https://fonts.google.com/specimen/Merriweather) by Google. [JQuery](https://jquery.com/) is only used to deal with the "burguer" icon that appears when you access the website using smaller screens. Aside from some minor CSS tweaks and overrides, that's pretty much it. 
 
 All that was left was to host the site somewhere.
 
