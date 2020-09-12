@@ -14,8 +14,8 @@ This is a website created with Hugo. Here's the [post](https://maurcz.github.io/
 
 ## Band Recommendation
 
-If you're into metal, go and give [Khemmis - Hunter](https://open.spotify.com/album/3u16EqmIewkFrJLvGQFVmL?si=z08XXF5CSgmR4ZTBEsQAdw) a try. 
+If you're into metal, give [Khemmis - Hunter](https://open.spotify.com/album/3u16EqmIewkFrJLvGQFVmL?si=z08XXF5CSgmR4ZTBEsQAdw) a try. 
 
 ## License
 
-Aside from `\content\posts\` and `\content\about\`, everything else is MIT Licensed. 
+Aside from `\content\posts\`, `\content\about\` and `\content\static`, everything else is MIT Licensed. 
