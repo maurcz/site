@@ -2,7 +2,7 @@ baseURL = "https://maurcz.github.io/"
 languageCode = "en-us"
 title = "Mauricio R. Cruz"
 theme = "maurcz-blog"
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-20528578-10"
 summaryLength = 2
 paginate = 10
 
