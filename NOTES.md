@@ -11,6 +11,5 @@ Future me will love this file.
 From https://gohugo.io/hosting-and-deployment/hosting-on-github/:
 
 - Run `hugo` to generate public html files.
-- `commit` and `push` changes to this repo.
 - Run `./deploy.sh "Your optional commit message"` to send changes to `<USERNAME>.github.io`. 
-- `commit` and `push` the deployment.
+- `commit` and `push` changes to this repo.
