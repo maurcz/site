@@ -6,9 +6,9 @@ tags: ["pdb", "custom", "debug", "debugger", "debugging", "python", "memory", "p
 summary: Creating custom commands for the Python Debugger (`pdb`).
 ---
 
-I've used several IDEs over the years (Visual Studio, Eclipse, MonoDevelop, XCode - even though I kinda regret that last one), but when I started working with Python, I made the decision to use VSCode only as a text editor on steroids, doing everything else inside the terminal. That means I never use VSCode's python debugger, I always go with pdb-ish packages like [pdbpp](https://github.com/pdbpp/pdbpp). 
+I've used several IDEs over the years (Visual Studio, Eclipse, MonoDevelop, XCode - even though I kinda regret that last one), but when I started working with Python, I made the decision to use VSCode only as a text editor on steroids, doing everything else inside the terminal. That means I never use VSCode's python debugger, using pdb-ish packages like [pdbpp](https://github.com/pdbpp/pdbpp) instead.
 
-However, I always wondered how exactly they work, as they normally retain all of the original pdb functionalities while enhancing the experience with all sorts of cool stuff. I did some digging, and in this post I'll explain how to create a tiny pdb-ish implementation, adding a simple command to print how much memory is being used by the args of the current function.
+However, I've always wondered exactly they work, as normally those tools retain all of the original pdb functionalities while enhancing the experience with all sorts of cool stuff. I did some digging, and in this post I'll explain how to create a tiny pdb-ish implementation, adding a simple command to print how much memory is being used by the args of the current function.
 
 _All source code created for this post can be found [here](https://github.com/maurcz/posts/tree/main/python-customizing-pdb)._
 
@@ -95,7 +95,7 @@ Now if we run our dummy script...
 
 ![pdb-prompt-modified](/images/002/pdb-prompt-modified.png)
 
-... we get a custom prompt! What's cool about this structure is that this custom debugger will retain _all_ of pdb's capabilities. You'll still have `n`, `s`, `r` and all everything else.
+... we get a custom prompt! What's cool about this structure is that this custom debugger will retain _all_ of pdb's capabilities. You'll still have `n`, `s`, `r` and everything else.
 
 ## Building a custom command
 
