@@ -10,6 +10,8 @@ I've used several IDEs over the years (Visual Studio, Eclipse, MonoDevelop, XCod
 
 However, I always wondered how exactly they work, as they normally retain all of the original pdb functionalities while enhancing the experience with all sorts of cool stuff. I did some digging, and in this post I'll explain how to create a tiny pdb-ish implementation, adding a simple command to print how much memory is being used by the args of the current function.
 
+_All source code created for this post can be found [here](https://github.com/maurcz/posts/tree/main/python-customizing-pdb)._
+
 ## Basics
 
 One of the most basic things a young python developer will learn is how to put a breakpoint in the source code. For python < 3.7, the most common way to do this is with `import pdb; pdb.set_trace`. This will import the standard `pdb` module and call function `set_trace()`, which will throw you into python's debugger as soon as you code hits that line. If you decide to use an alternative debugger like `pudb` or `ipdb`, you'll have to adjust that command slightly, since the module/function you'll import will probably be different (e.g. `import ipdb; ipdb.set_trace()`). 
