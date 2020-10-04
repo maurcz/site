@@ -1,7 +1,8 @@
 ---
 title: "Building a personal dev blog in 2020"
 date: 2020-06-26T22:26:46-04:00
-categories: ["Web Development", "Blogging"]
+categories: ["Web Development"]
+tags: ["hugo", "blog", "building", "scratch", "custom", "theme"]
 summary: Where I explain how I leveraged Hugo to finally get into the modern era of blogging. 
 ---
 
